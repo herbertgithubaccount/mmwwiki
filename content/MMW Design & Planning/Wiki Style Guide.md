@@ -12,9 +12,11 @@ Work-in-progress: Part of an 'MMW Policies and Guidelines' document in developme
 
 ## Bold
 
-- Use \*\***double Asterisks**\*\* instead of \_\___double underscores__\_\_ to define bold words/characters. This makes it easier to differentiate them from \__italic_\_ words/characters at a glance when editing
-- Bold the article name the first time it appears in the page's introductory sentence. Any alternative names in the introductory sentence should also be bolded. (e.g. "**Mlox** is a tool for sorting plugin load order.")
-- Bold the word or phrase being defined in bulleted or numeric lists.
+- Use **bold** when defining terms and concepts. This includes:
+	- The first mention of the article name in that articles introductory sentence.
+		- Any alternative names in the introductory sentence should also be bolded. (e.g. "**Mlox** is a tool for sorting plugin load order.")
+	- Phrases that are being defined in ordered and unordered lists.
+- Use \*\***double Asterisks**\*\* instead of \_\___double underscores__\_\_ when writing bold words/characters. This makes it easier to differentiate them from \__italic_\_ words/characters at a glance when editing.
 
 > [!example]-
 > 
@@ -26,11 +28,35 @@ Work-in-progress: Part of an 'MMW Policies and Guidelines' document in developme
 
 ---
 
+## Italics
+
+* Use italics when writing the titles of books, games, game franchises, and offsite modding guides (e.g. _Notes for Modmakers_).
+	- For example, _The Elder Scrolls_ should be italicized when discussing the game franchise. _Oblivion_ should be italicized when referring to _The Elder Scrolls IV: Oblivion_.
+- Initialisms, most notably ESO, should not be italicized.
+- Italics can be used for general emphasis, but should be used sparingly (see [[Wiki Style Guide#Emphasis]]).
+- Use \__underscores_\_ instead of \**asterisks*\* to define italics. This makes it easier to differentiate them from \*\***bold**\*\* words/characters at a glance when editing.
+
+> [!note]
+> 
+> By default, Obsidian uses asterisks to denote italics when using the `Toggle italic` hotkey. Instead, use `shift + _` to denote italics.
+> 
+> This behavior can be changed by installing one of several third-party community plugins that modifies this behavior.
+>> [!warning]- Warning - Community Plugins
+>>
+>> Take care when installing community plugins, as these could potentially make unintended or format-breaking edits to the wiki content. 
+>> 
+>> Be sure to check whether the community plugin is listed in [[recommended community plugins]] before installing.
+
+- 
+
+---
+
 ## Emphasis
 
-To emphasize a word or phrase, use _italics_. This should be used sparingly, as its effectiveness at drawing attention is reduced if overused.
-
-- **Bold** can be used to add emphasis only when it is intended as a **crucial warning** in the body text. However, warnings should generally be emphasized by adding a `> [!warning]` or `> [!danger]` callout instead.
+- Use _italics_ to emphasize important words and phrases. 
+- **Bold** may be used to add emphasis, but _only_ for crucial warnings. 
+	- However, in most circumstances, crucial warnings should instead be written in a `> [!warning]` or `> [!danger]` callout.
+- Do not overemphasize: if everything is emphasized, nothing is.
 
 
 > [!info]- Practices to Avoid When Emphasizing
@@ -46,12 +72,12 @@ To emphasize a word or phrase, use _italics_. This should be used sparingly, as 
 
 ## Headers
 
-| Markdown          | HTML Header Tag Equivalent | Use                                               |
-| ----------------- | -------------------------- | ------------------------------------------------- |
-| \#                | `<h1>`                     | Unused, as Quartz uses the filename as h1         |
-| \#\#              | `<h2>`                     | Main section divider                              |
-| \#\#\# - \#\#\#\# | `<h3>` - `<h4>`            | For use in article subsections                    |
-| \#\#\#\#\#        | `<h5>`                     | For labeling _'Example'_ above fenced code blocks |
+| Markdown            | HTML Header Tag Equivalent | Use                                               |
+| ------------------- | -------------------------- | ------------------------------------------------- |
+| \#                  | `<h1>`                     | Unused, as Quartz uses the filename as h1         |
+| \#\#                | `<h2>`                     | Main section divider                              |
+| \#\#\# and \#\#\#\# | `<h3>` and `<h4>`          | For use in article subsections                    |
+| \#\#\#\#\#          | `<h5>`                     | For labeling _'Example'_ above fenced code blocks |
 
 
 > [!example]-
@@ -67,26 +93,6 @@ To emphasize a word or phrase, use _italics_. This should be used sparingly, as 
 > ``` 
 > [example code block]
 > ``` 
-
----
-
-## Italics
-
-- Use \__underscores_\_ instead of \**asterisks*\* to define italics. This makes it easier to differentiate them from \*\***bold**\*\* words/characters at a glance when editing.
-
-> [!note]
-> 
-> By default, Obsidian uses asterisks to denote italics when using the `Toggle italic` hotkey. Instead, use `shift + _` to denote italics.
-> 
-> This behavior can be changed by installing one of several third-party community plugins that modifies this behavior.
->> [!warning]- Warning - Community Plugins
->>
->> Take care when installing community plugins, as these could potentially make unintended or format-breaking edits to the wiki content. 
->> 
->> Be sure to check whether the community plugin is listed in [[recommended community plugins]] before installing.
-
-- Italics should be used for the titles of books, games and non-MMW Morrowind modding guides (such as _Notes for Modmakers_) This includes the titles of _Elder Scrolls_ games and expansion packs, even when only the subtitle (e.g. _Oblivion_, _Skyrim_, _Online_) is written. The name of the series, _The Elder Scrolls_, should be italicized as well (even when shortened to just _Elder Scrolls_). Initialisms, most notably ESO, are not italicized.
-- Italics can be used for general emphasis, but should be used sparingly (see [[Wiki Style Guide#Emphasis]]).
 
 ---
 
