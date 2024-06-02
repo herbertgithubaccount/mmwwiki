@@ -6,4 +6,4 @@ The most comprehensive (freely available) Lua guide is the first edition of the 
 - Some parts of the book can be rather terse and/or highly abstract.
 - The book does not contain very many examples.
 
-The goals of these pages will be to fill in some of the gaps in PIL book
+The goals of these pages will be to fill in some of the gaps in PIL book.
